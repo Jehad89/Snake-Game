@@ -8,3 +8,5 @@ Classic snake gameplay
 Score tracking
 Game over screen
 Easy to understand and modify
+
+📄 Note: Make sure highscore.txt is placed in the same folder as the dist
