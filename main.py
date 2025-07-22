@@ -30,7 +30,7 @@ while game_on:
     window.onkey(snake.down,'Down')
 
     if snake.head.distance(food) < 15:
-        score.add_point()
+        score.update_scoreboard()
         food.display_food()
         snake.extend()
 
