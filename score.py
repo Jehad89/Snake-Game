@@ -13,7 +13,7 @@ class Score(Turtle):
 
     def get_highscore(self):
         with open("highscore.txt","r") as my_file:
-            return (int(my_file.read()))
+            return int(my_file.read())
 
     def save_highscore(self):
         with open("highscore.txt","w") as my_file:
